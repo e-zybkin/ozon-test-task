@@ -1,0 +1,9 @@
+.progress{
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}

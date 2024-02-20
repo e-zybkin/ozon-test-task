@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Progress</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="progress">
+        <div class="progress__control">
+          <input type="number" class="progress__input" />
+          <div class="progress__toggle">
+            <input
+              type="checkbox"
+              id="animate"
+              class="progress__toggle-input"
+            />
+            <label for="animate" class="progress__toggle-button"></label>
+            <p>Animate</p>
+          </div>
+          <div class="progress__toggle">
+            <input type="checkbox" id="hide" class="progress__toggle-input" />
+            <label for="hide" class="progress__toggle-button"></label>
+            <p>Hide</p>
+          </div>
+        </div>
+      </div>
+
+      <template class="template__progress">
+        <article class="progress__bar">
+          <svg class="progress__svg">
+            <circle
+              class="progress__circle"
+              cx="60"
+              cy="60"
+              r="40"
+              fill="transparent"
+            />
+          </svg>
+        </article>
+      </template>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
