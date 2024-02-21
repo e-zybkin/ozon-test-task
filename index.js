@@ -1,6 +1,6 @@
 import Progress from "./progress.js";
 
-const block = document.querySelector(".progress");
+const block = document.querySelector(".progress__block");
 
 const input = document.querySelector(".progress__input");
 const animateBtn = document.getElementById("animate");

@@ -1,8 +1,13 @@
 @import url(./normalize.css);
 @import url(./blocks/page/page.css);
+@import url(./blocks/wrapper/wrapper.css);
 @import url(./blocks/progress/progress.css);
+@import url(./blocks/progress/__title/progress__title.css);
+@import url(./blocks/progress/__block/progress__block.css);
 @import url(./blocks/progress/__svg/progress__svg.css);
+@import url(./blocks/progress/__svg/_animated/progress__svg_animated.css);
 @import url(./blocks/progress/__circle/progress__circle.css);
+@import url(./blocks/progress/__circle/_animated/progress__circle_animated.css);
 @import url(./blocks/progress/__control/progress__control.css);
 @import url(./blocks/progress/__input/progress__input.css);
 @import url(./blocks/progress/__toggle/progress__toggle.css);

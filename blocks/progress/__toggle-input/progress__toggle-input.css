@@ -7,5 +7,5 @@
 }
 
 .progress__toggle-input:checked + .progress__toggle-button::before {
-  transform: translate(100px);
+  transform: translate(20px);
 }

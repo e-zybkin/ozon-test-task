@@ -1,14 +1,4 @@
 .progress__svg {
-  width: 120px;
-  height: 120px;
-}
-
-.progress__svg_animate {
-  animation: rotate 2s linear infinite;
-}
-
-@keyframes rotate {
-  100% {
-      transform: rotate(360deg);
-  }
+  width: 160px;
+  height: 160px;
 }

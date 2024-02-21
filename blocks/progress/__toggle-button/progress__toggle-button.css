@@ -1,7 +1,7 @@
 .progress__toggle-button {
-  background-color: #d2d2d2;
-  width: 200px;
-  height: 100px;
+  background-color: #e0e6ef;
+  width: 50px;
+  height: 30px;
   border-radius: 200px;
   cursor: pointer;
   position: relative;
@@ -11,9 +11,9 @@
   position: absolute;
   content: '';
   background-color: #fff;
-  width: 90px;
-  height: 90px;
+  width: 26px;
+  height: 26px;
   border-radius: 200px;
-  margin: 5px;
+  margin: 2px;
   transition: 0.2s;
 }

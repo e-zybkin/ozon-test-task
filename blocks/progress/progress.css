@@ -1,9 +1,15 @@
 .progress{
-  min-width: 320px;
-  max-width: 1440px;
-  margin: 0 auto;
-  color: #000;
+  max-width: 568px;
+  min-height: 320px;
   display: flex;
-  justify-content: center;
   height: 100%;
+  position: relative;
+  align-items: center;
+  gap: 60px;
+}
+
+@media screen and (max-width: 567px) {
+  .progress {
+    flex-direction: column;
+  }
 }

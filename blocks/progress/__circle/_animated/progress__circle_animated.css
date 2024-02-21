@@ -1,0 +1,14 @@
+.progress__circle_animated {
+  animation: animate-stroke 2s ease-in-out infinite;
+}
+
+@keyframes animate-stroke {
+  0%, 100% {
+    stroke-dasharray: 1, 376;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 188, 376;
+    stroke-dashoffset: 94;
+  }
+}

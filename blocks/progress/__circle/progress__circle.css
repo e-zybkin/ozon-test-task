@@ -4,23 +4,3 @@
   transform-origin: center;
   transform: rotate(-90deg);
 }
-
-.progress__circle_animated {
-  
-  animation: animate-stroke 1.5s ease-in-out infinite;
-}
-
-@keyframes animate-stroke {
-  0% {
-      stroke-dasharray: 80 250;
-      stroke-dashoffset: 0;
-  }
-  50% {
-      stroke-dasharray: 80 250;
-      stroke-dashoffset: -130;
-  }
-  100% {
-      stroke-dasharray: 80 250;
-      stroke-dashoffset: -326.73;
-  }
-}
